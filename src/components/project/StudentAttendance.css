@@ -1,0 +1,156 @@
+/* StudentAttendance.css */
+.containero{
+    background: linear-gradient(to right, #1BA098 10%, #a6eee9) no-repeat;
+    height: 100vh;
+}
+
+ /* StudentAttendance.css */
+
+.attendance-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    position: relative;
+    top: 50px; 
+    background-color: rgb(239, 247, 251);
+ 
+  }
+  
+
+.heading {
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 50px;
+    font-weight: 800;
+    letter-spacing: 3px;
+    text-align: center;
+    background: linear-gradient(to right, #072725 10%, #a6eee9) no-repeat;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-size: 300% 300%;
+    -webkit-text-stroke: 2px black;
+    text-shadow: 0 0 5px rgba(50, 48, 48, 0.5);
+    color: #1BA098; /* Set the text color */
+}
+
+
+
+
+
+  
+  .date-picker-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  
+  }
+  
+  .start-date-picker,
+  .select-date-picker {
+    flex: 1;
+  }
+  
+  .label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    display: block;
+  }
+  
+  .holiday-button-container,
+  .update-button-container {
+    margin-left: 10px;
+  }
+ 
+  
+  .mark-holiday,
+  .remove-holiday,
+  .update-button {
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+  }
+  
+  .mark-holiday:hover,
+  .remove-holiday:hover,
+  .update-button:hover {
+    background-color: #45a049;
+  }
+  
+  .attendance-table {
+    width: 50%; /* Increase the width */
+    margin-top: 20px;
+    border-collapse: collapse;
+  }
+  
+  .attendance-table th,
+  .attendance-table td {
+    border: 1px solid #ddd;
+    padding: 5px; /* Increase the padding for better spacing */
+    text-align: left;
+    height: 10px; /* Decrease the height of each row */
+  }
+  
+  .attendance-radio-group {
+    display: flex;
+    align-items: center;
+  }
+  
+  .radio-label {
+    margin-right: 20px;
+  }
+  
+  .radio-label input {
+    margin-right: 5px;
+  }
+  
+  .total-days {
+    margin-top: 20px;
+    font-weight: bold;
+  }
+  .attendance-radio-group {
+    display: flex;
+    align-items: center;
+  }
+  
+  .radio-label {
+    margin-right: 20px;
+  }
+  
+  .radio-label input {
+    margin-right: 5px;
+  }
+  
+  .attendance-table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+    border-style:dotted;
+  }
+  
+  .attendance-table th,
+  .attendance-table td {
+    border: 1px solid #ddd;
+    padding: px;
+    text-align: left;
+    height: 40px;
+  }
+  
+  .attendance-radio-group {
+    display: flex;
+    align-items: center;
+  }
+  
+  .radio-label {
+    margin-right: 20px;
+  }
+  
+  .radio-label input {
+    margin-right: 5px;
+    vertical-align: middle; /* Align the radio buttons vertically */
+  }
